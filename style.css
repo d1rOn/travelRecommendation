@@ -1,0 +1,336 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+  min-height: 100dvb;
+  background-image: linear-gradient(to right, #303f3c9d, #497d7400),
+    url('./images/stedentrip-new-york.jpg');
+  background-size: cover;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  min-height: 100vh;
+}
+
+button {
+  border-radius: 10px;
+  cursor: pointer;
+}
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1f1f1f;
+}
+
+nav div {
+  display: flex;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo a {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  color: white;
+  text-decoration: none;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.nav-logo img {
+  height: 70px;
+  width: 70px;
+}
+
+.nav-links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style-type: none;
+  font-weight: bold;
+  font-size: large;
+}
+
+.nav-links ul li {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-links .active {
+  color: #b1573d;
+}
+
+.nav-search {
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 25%;
+  background-color: white;
+  border-radius: 50px;
+  border: solid white;
+}
+
+.search-form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.search-form input[type='text'] {
+  min-width: 220px;
+  width: 100%;
+  height: 100%;
+  border-style: none;
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: medium;
+}
+
+.search-form input:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+
+.search-form button {
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  background-color: #2060c5;
+  color: white;
+  font-weight: bold;
+  border: solid white 1px;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sns-sidebar {
+  width: 5%;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sns-sidebar a {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.sns-sidebar::before,
+.sns-sidebar::after {
+  flex: 1;
+  content: '';
+  padding: 1px;
+  background-color: white;
+  margin: 25% 50%;
+}
+
+.icon-wrapper {
+  display: flex;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.container {
+  width: 90%;
+  display: flex;
+  justify-content: space-around;
+}
+.container-texts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-top: 10%;
+  padding-bottom: 10%;
+}
+
+.headings {
+  color: white;
+  font-size: xx-large;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+}
+
+.container-texts button {
+  background-color: #2060c5;
+  color: white;
+  height: 40px;
+  width: 150px;
+  border: solid white 1px;
+  font-weight: bold;
+}
+
+.container-about-us {
+  margin-left: 50px;
+  padding: 30px;
+  color: white;
+}
+
+.container-about-us h1 {
+  font-size: 50px;
+}
+
+.about-us {
+  margin-bottom: 100px;
+}
+
+.about-us p {
+  font-size: larger;
+}
+
+.team {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  padding: 20px;
+  width: 25%;
+  font-size: larger;
+  background-color: rgba(150, 150, 150, 0.8);
+  border: solid black 1px;
+  border-radius: 10px;
+}
+
+.container-contact-us {
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+}
+
+.contact-us-headings h1 {
+  font-size: 50px;
+}
+
+.contact-us-headings p {
+  font-size: larger;
+}
+
+.form-container {
+  min-width: 50%;
+  padding: 10px;
+  border: solid #9f9ea0 1px;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+}
+
+.contact-us-form {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  font-size: x-large;
+}
+
+.contact-us-form input,
+textarea {
+  padding: 8px;
+  color: white;
+  background-color: transparent;
+  border-radius: 5px;
+  border: solid #9f9ea0 1px;
+}
+
+.contact-us-form input::placeholder,
+textarea::placeholder {
+  color: white;
+}
+
+.contact-us-form input:focus-visible,
+textarea:focus-visible {
+  outline: none;
+  box-shadow: none;
+}
+
+.contact-us-form label {
+  margin-bottom: 5px;
+}
+
+.contact-us-form button {
+  margin-top: 10px;
+  background-color: #2060c5;
+  color: white;
+  padding: 10px;
+  border: transparent;
+  font-weight: bold;
+}
+
+.contact-us-form div {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.contact-us-form div input {
+  height: 30px;
+}
+
+.container-recommendations {
+  width: 50%;
+  padding: 30px;
+  color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+
+.recommendation {
+  background-color: #2060c5;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.recommendation button {
+  background-color: #b1573d;
+  color: white;
+  height: 30px;
+  width: 100px;
+  border: solid white 1px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.rec-img-container,
+.rec-img {
+  width: 100%;
+}
+
+.rec-info {
+  padding: 10px;
+}
+
+.hidden {
+  visibility: hidden;
+}

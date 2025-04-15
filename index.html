@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Easy Trips</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-logo">
+        <a href="index.html"><img src="./images/plane_icon.png" />Easy Trips</a>
+      </div>
+      <div class="nav-links">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="travel_about_us.html">About Us</a></li>
+          <li><a href="travel_contact_us.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="nav-search">
+        <form class="search-form">
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="Enter a destination or keyword"
+          />
+          <span class="icon-wrapper">
+            <img src="./images/search.svg" alt="search" class="icon" />
+          </span>
+          <button type="submit">Search</button>
+          <button type="button" class="clearBtn">Clear</button>
+        </form>
+      </div>
+    </nav>
+    <main>
+      <div class="sns-sidebar">
+        <a href="https://www.facebook.com" target="_blank"
+          ><img src="./images/fb.svg" alt="Facebook" class="icon"
+        /></a>
+        <a href="https://www.instagram.com/" target="_blank"
+          ><img src="./images/instagram.svg" alt="instagram" class="icon"
+        /></a>
+        <a href="https://x.com" target="_blank"
+          ><img src="./images/x-logo.svg" alt="X" class="icon"
+        /></a>
+      </div>
+      <div class="container">
+        <div class="container-texts">
+          <div class="headings">
+            <h1>EXPLORE DREAM DESTINATION</h1>
+          </div>
+          <div class="text">
+            <p>
+              It encourages exploration of unfamiliar <br />territories,
+              embracing diverse cultures and <br />
+              landscapes, while pursuing the desired <br />destination that
+              captivates the heart and <br />ignites a sense of wonder.
+            </p>
+          </div>
+          <div class="bookBtn">
+            <button type="button">BOOK NOW</button>
+          </div>
+        </div>
+        <div class="container-recommendations">
+        </div>
+      </div>
+    </main>
+    <script src="travel_recommendation.js"></script>
+  </body>
+</html>

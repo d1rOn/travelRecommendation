@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Easy Trips</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-logo">
+        <a href="index.html"><img src="./images/plane_icon.png" />Easy Trips</a>
+      </div>
+      <div class="nav-links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="travel_about_us.html" class="active">About Us</a></li>
+          <li><a href="travel_contact_us.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="nav-search hidden">
+        <form class="search-form">
+          <input
+            type="text"
+            name="search"
+            id="search"
+            placeholder="Enter a destination or keyword"
+          />
+          <span class="icon-wrapper">
+            <img src="./images/search.svg" alt="search" class="icon" />
+          </span>
+          <button type="submit">Search</button>
+          <button type="button" class="clearBtn">Clear</button>
+        </form>
+      </div>
+    </nav>
+    <main>
+      <div class="sns-sidebar">
+        <a href="https://www.facebook.com" target="_blank"
+          ><img src="./images/fb.svg" alt="Facebook" class="icon"
+        /></a>
+        <a href="https://www.instagram.com/" target="_blank"
+          ><img src="./images/instagram.svg" alt="instagram" class="icon"
+        /></a>
+        <a href="https://x.com" target="_blank"
+          ><img src="./images/x-logo.svg" alt="X" class="icon"
+        /></a>
+      </div>
+
+      <div class="container-about-us">
+        <div class="about-us">
+          <h1>ABOUT US</h1>
+          <p>
+            Welcome to Our Company! We are a team of passionate individuals
+            dedicated to providing excellent services/products to our customers.
+            Our mission is to <strong>provide the best experience</strong> for
+            people traveling to different destinations around the world.
+          </p>
+          <p>
+            Our values include integrity, innovation, customer satisfaction, and
+            teamwork. We believe in
+            <strong>putting our customers first</strong> and
+            <strong>working together</strong> to achieve our goals.
+          </p>
+          <p>
+            Feel free to explore our website to learn more about what we offer!
+          </p>
+        </div>
+        <div class="our-team-container">
+          <h1>Our Team</h1>
+          <div class="team">
+            <div class="card">
+              <img src="./images/person.png" />
+              <h4>John Doe</h4>
+              <p>John is responsible for...</p>
+            </div>
+            <div class="card">
+              <img src="./images/person.png" />
+              <h4>Jane Doe</h4>
+              <p>Jane is responsible for...</p>
+            </div>
+            <div class="card">
+              <img src="./images/person.png" />
+              <h4>Bob Batee</h4>
+              <p>Bob is responsible for...</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="travel_recommendation.js"></script>
+  </body>
+</html>
